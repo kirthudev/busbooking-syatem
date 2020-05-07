@@ -1,0 +1,47 @@
+<center style ="
+    border: solid 2px lightslategrey;
+    width: 1100px;
+    margin-left: 230px;
+    background-color: rgba(86, 106, 123, 0.7);
+    border-radius: 16px;
+    padding-top: 16px;
+	padding-bottom: 16px;
+	margin-top:10px;
+"  >
+<form action="" method="POST">
+<h1 style="color: white;">Dash Board</h1>
+
+  
+  <table width="70%" border="1">
+           
+            <tr>
+            <th style="color: white;">BUS ROUTE</th>
+            <th style="color: white;">PASSENGER ID</th>
+            <th style="color: white;">BOOKING DATE</th>
+            <th style="color: white;">JOURNEY DATE</th>
+            <th style="color: white;">TOTAL AMOUNT</th>
+            <th style="color: white;">PASSENGER COUNT</th>
+            <th style="color: white;">SEATS NUMBERS</th>
+			</tr>
+			
+                <!-- BEGIN show_booking -->
+           
+            <tr>
+                <td style="color: white;">{BUS_ROUTE}</td>
+                <td style="color: white;">{PASSENGER_ID}</td>
+                <td style="color: white;">{BUS_BOOKING_DATE}</td>
+                <td style="color: white;">{JOURNEY_DATE}</td>
+                <td style="color: white;">{TOTAL_AMOUNT}</td>
+                <td style="color: white;">{PASSENGER_COUNT}</td>
+                <td style="color: white;">{SEATS_NUMBERS}</td>
+			</tr>
+			<!-- END show_booking -->
+   </table>	<br>	
+  <a href="http://www.busbooking.local/admin/?module=login" target="_blank" style="background-color: #f44336;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;">Exit</a>
+</form>
+</center>

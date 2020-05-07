@@ -1,0 +1,25 @@
+BUS BOOKING SYSTEM 
+
+FEATURES:
+1.admin panel
+        Dashboard->previous bookings/current bookings.
+        travel agency->overview/add/edit/delete/details->list of buses with route.
+        Buses->overview/add/edit/delete/details->bues routes and agency.
+       
+2.settings
+    route ->add/edit/delete of routes.
+    cities->add/edit/delete of cities.
+
+#admin panel can be accessed only by admin...
+  *The page starts from a login page where username,password can be entered to check the valid user.
+
+DATABASE NAME      ->bus_booking
+TABLE NAME         ->admin
+FIELDS             ->name,email,gender,age,phone number,password,address,id.
+
+LOGIN PAGE         ->form 
+FIELDS             ->user name,password.
+LINKS              ->create new account,forgot password.
+
+#After success full login of admin.the page redirects to dash board.
+   *Navigation links has dashboard,buses,travel agency,settings[sublist routes,citie].
